@@ -19,7 +19,7 @@ We began by building the webpage with HTML. We used Bootstrap and a CSS style sh
 <br>
 
 #### - Filtering the data
-<p padding-left: 50px>In order to filter the data we first wrote a function to create an object to hold all of the filters a user might input. We created variables elementValue and filterId based on the user's input, then created from that an array, filters, which held a set of key:value pairs. We then ran a separate filterTable() function to narrow the results table. I used a forEach loop in combination with the Object.keys() method to loop through the filters array and compare it against the data in data.js. For some reason the filterTable() function did not operate properly, even though tests of the updateFilters() function showed it was working as expected. </p>
+<p padding-left: 50px>In order to filter the data we first wrote a function to create an object to hold all of the filters a user might input. We created variables elementValue and filterId based on the user's input, then created from that an array, filters, which held a set of key:value pairs. We then ran a separate filterTable() function to narrow the results table. We used a forEach loop in combination with the Object.keys() method to loop through the filters array and compare it against the data in data.js. The image below shows the table after having been filtered for triangle-shaped UFOs. </p>
 <br>
 <p align ="center">
 <img src="static/images/webpage2.png" alt="Filtered Page"/><br>
